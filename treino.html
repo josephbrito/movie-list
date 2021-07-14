@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Alura</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<h1>AluraFlix</h1>
+		<p>Qual o seu filme favorito?</p>
+		<input type="text" class="inp" id="nmv">
+		<br>
+		<p>Adicione a URL da imagem</p>
+		<input type text="text" class="inp" id="url">
+		<br>
+		<button class="btn" id="addu" onclick="add()">Adicionar</button>
+	</main>
+
+		<div class="flex" id="maindiv">
+		<figure class="figure">
+			<img src="banner1.jpg" alt="Soldado invernal" draggable="false">
+			<figcaption class="caption">Falcão e o soldado invernal</figcaption>
+		</figure>
+
+		<figure class="figure">
+			<img src="banner2.jpg" alt="Washigton" draggable="false">
+			<figcaption class="caption">O caminho de Pelham</figcaption>
+		</figure>
+
+		<figure class="figure">
+			<img src="banner3.jpeg" alt="raya" draggable="false">
+			<figcaption class="caption">Raya - o último dragão</figcaption>
+		</figure>
+
+		<figure class="figure">
+			<a href="https://www.youtube.com/watch?v=bOR8RGPGuBg&t=798s" target="_blank" class="link" draggable="false"><img src="banner4.jpg" alt="Martyrs 2008" draggable="false"></a>
+			<figcaption class="caption">Martyrs - (2008)</figcaption>
+		</figure>
+				
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
