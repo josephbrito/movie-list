@@ -53,6 +53,10 @@ p{
 	cursor:pointer;
 }
 
+.btn:hover{
+	transform:scale(1.1);
+}
+
 .btn:active{
 	transform: scale(0.95);
 }
